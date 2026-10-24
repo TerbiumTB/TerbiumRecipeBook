@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "title": "Паста с томатами и базиликом",
+  "servings": 2,
+  "time": {"totalMinutes": 25, "activeMinutes": 15},
+  "ingredients": [
+    {"id": "pasta", "name": "Паста", "quantity": {"kind": "exact", "value": 200, "unit": "g"}, "preparation": null, "group": null, "optional": false},
+    {"id": "tomatoes", "name": "Томаты черри", "quantity": {"kind": "exact", "value": 300, "unit": "g"}, "preparation": "разрезать пополам", "group": null, "optional": false},
+    {"id": "oil", "name": "Оливковое масло", "quantity": {"kind": "exact", "value": 2, "unit": "tbsp"}, "preparation": null, "group": null, "optional": false},
+    {"id": "garlic", "name": "Чеснок", "quantity": {"kind": "exact", "value": 2, "unit": "clove"}, "preparation": "тонко нарезать", "group": null, "optional": false},
+    {"id": "basil", "name": "Базилик", "quantity": {"kind": "range", "min": 5, "max": 10, "unit": "g"}, "preparation": null, "group": null, "optional": false},
+    {"id": "salt", "name": "Соль", "quantity": {"kind": "to_taste"}, "preparation": null, "group": null, "optional": false}
+  ],
+  "steps": [
+    {"id": "prep", "title": "Подготовьте продукты", "instruction": "Поставьте воду для пасты нагреваться. Разрежьте томаты пополам, тонко нарежьте чеснок и отделите листья базилика.", "ingredientIds": ["tomatoes", "garlic", "basil"], "timerSeconds": null},
+    {"id": "sauce", "title": "Приготовьте соус", "instruction": "Нагрейте масло на среднем огне. Прогрейте чеснок около 30 секунд, не подрумянивая. Добавьте томаты и часть соли. Готовьте 10 минут, помешивая, пока томаты не размягчатся.", "ingredientIds": ["oil", "garlic", "tomatoes", "salt"], "timerSeconds": 600},
+    {"id": "boil", "title": "Отварите пасту", "instruction": "Пока готовится соус, посолите кипящую воду и отварите пасту по инструкции на упаковке до состояния аль денте. Перед сливом сохраните немного воды от варки.", "ingredientIds": ["pasta", "salt"], "timerSeconds": null},
+    {"id": "finish", "title": "Соедините и подавайте", "instruction": "Переложите пасту в соус и перемешайте. По необходимости добавляйте понемногу сохранённую воду до желаемой густоты. Снимите с огня, добавьте базилик и попробуйте на соль.", "ingredientIds": ["pasta", "basil", "salt"], "timerSeconds": null}
+  ],
+  "userNotes": "В следующий раз попробовать с запечёнными томатами."
+}
